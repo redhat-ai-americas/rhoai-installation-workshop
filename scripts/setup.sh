@@ -100,7 +100,7 @@ help(){
   loginfo "        3       - Run sample gpu application"
   loginfo "        4       - Configure gpu dashboards"
   loginfo "        5       - Configure gpu sharing method"
-  loginfo "        6       - Install kserve dependencies"
+  loginfo "        6       - Install RHOAI dependencies"
   loginfo "        7       - Install RHOAI operator"
   loginfo "        8       - Configure distributed workloads"
   loginfo "        9       - Configure rhoai / All"
@@ -172,7 +172,7 @@ step_5(){
 }
 
 step_6(){
-  logbanner "Install kserve dependencies"
+  logbanner "Install RHOAI dependencies"
   retry oc apply -f "${GIT_ROOT}"/configs/06
 }
 

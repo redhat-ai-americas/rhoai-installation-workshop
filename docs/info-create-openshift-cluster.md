@@ -4,7 +4,7 @@
 <a href="/docs/00-prerequisite.md">Back</a>
 </p>
 
-Your cluster must have at least **2 worker nodes with at least 8 CPUs and 32 GiB RAM available for OpenShift AI** to use when you install the Operator. To ensure that OpenShift AI is usable, additional cluster resources are required beyond the minimum requirements.
+Your cluster must have at least **2 worker nodes with at least 8 CPUs and 32 GiB RAM OR for single-node OpenShift clusters, the node must have at least 32 CPUs and 128 GiB RAMavailable for OpenShift AI** to use when you install the Operator. To ensure that OpenShift AI is usable, additional cluster resources are required beyond the minimum requirements.
 
 ### Steps
 
@@ -14,7 +14,7 @@ Your cluster must have at least **2 worker nodes with at least 8 CPUs and 32 GiB
 
   - Activity = `Practice/Enablement`
   - Purpose = `Conduct internal training/enablement`
-  - OpenShift Version = `4.16`
+  - OpenShift Version = `4.20`
   - Control Plane Instance Type = `m6a.4xlarge`
 
 ![](/assets/create-openshift-cluster.gif)

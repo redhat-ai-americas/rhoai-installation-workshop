@@ -1,7 +1,7 @@
 # 7. Install RHOAI operator
 
 <p align="center">
-<a href="/docs/06-install-kserve-dependencies.md">Prev</a>
+<a href="/docs/06-install-rhoai-dependencies.md">Prev</a>
 &nbsp;&nbsp;&nbsp;
 <a href="/docs/08-configure-rhoai.md">Next</a>
 </p>
@@ -37,18 +37,14 @@ Before you install RHOAI, it is important to understand how it's dependencies wi
 
 ## Steps
 
-- [ ] Check the pre-requisite operators in order to fully deploy RHOAI components.
+- [ ] Check the pre-requisite operator in order to fully deploy RHOAI components.
 
       oc get subscriptions -A
 
 > Expected output
 >
 > `NAMESPACE              NAME                                                                PACKAGE                 SOURCE             CHANNEL`\
-> `openshift-operators    authorino-operator                                                  authorino-operator      redhat-operators   tech-preview-v1`\
-> `openshift-operators    devworkspace-operator-fast-redhat-operators-openshift-marketplace   devworkspace-operator   redhat-operators   fast`\
-> `openshift-operators    servicemeshoperator                                                 servicemeshoperator     redhat-operators   stable`\
-> `openshift-operators    web-terminal                                                        web-terminal            redhat-operators   fast`\
-> `openshift-serverless   serverless-operator                                                 serverless-operator     redhat-operators   stable`
+> `cert-manager-operator   openshift-cert-manager-operator   openshift-cert-manager-operator   redhat-operators      stable-v1`
 
 - [ ] Create the namespace in your RHOCP cluster
 
@@ -217,7 +213,7 @@ There are 3x RHOAI Operator dependency states to be set: `Managed`, `Removed`, a
 ```
 
 <p align="center">
-<a href="/docs/06-install-kserve-dependencies.md">Prev</a>
+<a href="/docs/06-install-rhoai-dependencies.md">Prev</a>
 &nbsp;&nbsp;&nbsp;
 <a href="/docs/08-configure-rhoai.md">Next</a>
 </p>

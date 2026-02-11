@@ -25,7 +25,7 @@ OpenShift AI provides an environment to develop, train, serve, test, and monitor
 1. [(Optional) Run sample GPU application](/docs/03-run-sample-gpu-application.md)
 1. [Configure GPU dashboards](/docs/04-configure-gpu-dashboards.md)
 1. [Configure GPU sharing method](/docs/05-configure-gpu-sharing-method.md)
-1. [Install RHOAI Kserve dependencies](/docs/06-install-kserve-dependencies.md)
+1. [Install RHOAI Dependencies](/docs/06-install-rhoai-dependencies.md)
 1. [Install RHOAI Operator and Components](/docs/07-install-rhoai-operator.md)
 1. [Configure RHOAI / Data Science Pipelines](/docs/08-configure-rhoai.md)
 1. [Configure distributed workloads](/docs/09-configure-distributed-workloads.md)

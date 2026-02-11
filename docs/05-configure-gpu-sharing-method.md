@@ -3,7 +3,7 @@
 <p align="center">
 <a href="/docs/04-configure-gpu-dashboards.md">Prev</a>
 &nbsp;&nbsp;&nbsp;
-<a href="/docs/06-install-kserve-dependencies.md">Next</a>
+<a href="/docs/06-install-rhoai-dependencies.md">Next</a>
 </p>
 
 ### Objectives
@@ -253,5 +253,5 @@ For NVIDIA GPU there are a few methods to optimize GPU utilization:
 <p align="center">
 <a href="/docs/04-configure-gpu-dashboards.md">Prev</a>
 &nbsp;&nbsp;&nbsp;
-<a href="/docs/06-install-kserve-dependencies.md">Next</a>
+<a href="/docs/06-install-rhoai-dependencies.md">Next</a>
 </p>
