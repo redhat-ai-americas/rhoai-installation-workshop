@@ -78,7 +78,7 @@
 
 ### Rationale
 
-- Leader Worker Set provides an API for deploying a group of pods as a unit of replication, aimed at multi-host inference workloads where LLMs are sharded and run across multiple devices on multiple nodes.
+- Leader Worker Set provides an API for deploying a group of pods as a unit of replication, aimed at multi-host inference workloads where LLMs are shared and run across multiple devices on multiple nodes.
 
 
 ## Steps

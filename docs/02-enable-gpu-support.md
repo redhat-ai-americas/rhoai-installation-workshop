@@ -160,7 +160,7 @@
 >
 > `NAME                                      READY   STATUS    RESTARTS   AGE`\
 > `...`\
-> `nfd-controller-manager-78758c57f7-7xfh4   1/1     Running   0          13s`
+> `nfd-controller-manager-xxxxxxxxxx-xxxxx   1/1     Running   0          13s`
 
 > [!NOTE]
 > Exit out (CTRL+C) of the above command when you see the expected output
@@ -195,18 +195,18 @@ Below are some of the [PCI vendor ID assignments](https://pcisig.com/membership/
 > Expected output
 >
 > `NAME                                      READY   STATUS    RESTARTS   AGE`\
-> `nfd-controller-manager-7cb9b4d894-bnwwp   1/1     Running   0          96s`\
-> `nfd-gc-558488ddd9-6fr5v                   1/1     Running   0          43s`\
-> `nfd-master-78f5876479-jbk7d               1/1     Running   0          43s`\
-> `nfd-worker-d7wgh                          1/1     Running   0          43s`\
-> `nfd-worker-l6sqx                          1/1     Running   0          43s`
+> `nfd-controller-manager-xxxxxxxxxx-xxxxx   1/1     Running   0          96s`\
+> `nfd-gc-xxxxxxxxxx-xxxxx                   1/1     Running   0          43s`\
+> `nfd-master-xxxxxxxxxx-xxxxx               1/1     Running   0          43s`\
+> `nfd-worker-xxxxx                          1/1     Running   0          43s`\
+> `nfd-worker-xxxxx                          1/1     Running   0          43s`
 
 NAME                                      READY   STATUS    RESTARTS   AGE
-nfd-controller-manager-7cb9b4d894-bnwwp   1/1     Running   0          96s
-nfd-gc-558488ddd9-6fr5v                   1/1     Running   0          43s
-nfd-master-78f5876479-jbk7d               1/1     Running   0          43s
-nfd-worker-9h5tp                          1/1     Running   0          43s
-nfd-worker-qkvkx                          1/1     Running   0          43s
+nfd-controller-manager-xxxxxxxxxx-xxxxx   1/1     Running   0          96s
+nfd-gc-xxxxxxxxxx-xxxxx                   1/1     Running   0          43s
+nfd-master-xxxxxxxxxx-xxxxx               1/1     Running   0          43s
+nfd-worker-xxxxx                          1/1     Running   0          43s
+nfd-worker-xxxxx                          1/1     Running   0          43s
 
 - [ ] Verify the GPU device (NVIDIA uses the PCI ID `10de`) is discovered on the GPU node. This means the NFD Operator correctly identified the node from the GPU-enabled MachineSet.
 

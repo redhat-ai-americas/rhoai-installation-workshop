@@ -148,7 +148,7 @@
 
 > Example output
 >
-> `machineset.machine.openshift.io/cluster-5mgxv-42f4t-worker-us-east-2b scaled`
+> `machineset.machine.openshift.io/cluster-xxxxx-xxxxx-worker-us-east-2b scaled`
 
 ## 8.3 Add a custom serving runtime
 
@@ -270,7 +270,7 @@
 
 > Expected output
 >
-> `Now using project "minio" on server "https://api.cluster-5mgxv.5mgxv.sandbox3005.opentlc.com:6443".`
+> `Now using project "minio" on server "https://api.cluster-xxxxx.xxxxx.sandbox3005.opentlc.com:6443".`
 >
 > `You can add applications to this project with the 'new-app' command. For example, try:`
 >

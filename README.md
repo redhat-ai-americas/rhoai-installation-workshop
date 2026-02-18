@@ -1,4 +1,4 @@
-# Red Hat OpenShift AI BootCamp
+# Red Hat OpenShift AI Installation Workshop
 
 [![Spelling](https://github.com/redhat-na-ssa/hobbyist-guide-to-rhoai/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/redhat-na-ssa/hobbyist-guide-to-rhoai/actions/workflows/spellcheck.yml)
 
@@ -11,9 +11,9 @@
 
 ## About RHOAI
 
-Red Hat OpenShift AI is a platform for data scientists and developers of artificial intelligence and machine learning applications.
+Red Hat OpenShift® AI builds on the capabilities of Red Hat OpenShift to provide a trusted and scalable AI platform for developers and data scientists.
 
-OpenShift AI provides an environment to develop, train, serve, test, and monitor AI/ML models and applications on-premise or in the cloud. [More Info](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.2/html/introduction_to_red_hat_openshift_ai/index)
+OpenShift AI provides an environment to develop, train, serve, evaluate, and monitor AI/ML models and applications on-premise or in the cloud. [More Info](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.2/html/introduction_to_red_hat_openshift_ai/index)
 
 - Learn more about features and dependencies [(link)](/docs/info-features.md)
 
@@ -47,9 +47,3 @@ until oc apply -k https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/demos/
 
 > For more comprehensive gitops functionality, check out below repository:
 > [**demo-ai-gitops-catalog**](https://github.com/redhat-na-ssa/demo-ai-gitops-catalog)
-
-## Demo Instructions
-
-1. [Distributed Workloads](/docs/10-demo-distributed_workloads.md)
-
-1. [Fraud Detection](/docs/11-demo-fraud-detection.md)

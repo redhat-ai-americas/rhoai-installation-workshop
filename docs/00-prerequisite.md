@@ -41,7 +41,7 @@ oc login <openshift_cluster_url> -u <admin_username> -p <password>
 ```sh
 oc apply -f ./configs/00
 ```
-- [ ] If the web-terminal-tooling resource mapping throws an error. Run the apply command again with just the tooling yaml.
+- [ ] If the web-terminal-tooling resource mapping throws an error, run the apply command again with just the tooling yaml.
 ```sh
 oc apply -f ./configs/00/web-terminal-tooling.yaml
 ```
