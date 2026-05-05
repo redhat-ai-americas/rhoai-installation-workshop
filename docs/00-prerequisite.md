@@ -6,7 +6,16 @@
 <a href="/docs/01-add-administrative-user.md">Next</a>
 </p>
 
-> Intended commands to be executed from the root directory of this repository. The majority of the configurations to be applied are already created, with the exception of the ones that prompts you for specifics that are either created in the command or dumped to a `scratch` dir that is ignored in the `.gitignore`.
+> Intended commands to be executed from the root directory of this repository. The majority of the configurations to be applied are already created, with the exception of the ones that prompts you for specifics that are either created in the command or dumped to a `scratch` dir that is ignored in the `.gitignore`. If you are running this as a workshop it is recommended that you use the Bastion RHEL Machine provided in your RHDP deployment.  This controls for dependencies and allows for smoother access to the OpenShift Cluster.  You can use the commands below to install Helm on the Bastion but the other dependencies should be set up already.
+
+
+- [ ] Run the following commands to install helm if using the RHEL Bastion
+
+```sh
+sudo curl -L https://mirror.openshift.com/pub/openshift-v4/clients/helm/latest/helm-linux-amd64 -o /usr/local/bin/helm
+sudo chmod +x /usr/local/bin/helm
+helm version
+```
 
 - [ ] Have `cluster-admin` access to an OpenShift 4.19+ cluster
   - [Create an OpenShift 4.19+ cluster](/docs/info-create-openshift-cluster.md)
