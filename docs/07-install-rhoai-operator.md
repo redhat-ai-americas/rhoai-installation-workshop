@@ -68,7 +68,7 @@ Before you install RHOAI, it is important to understand how its dependencies wil
 >
 > `subscription.operators.coreos.com/rhods-operator created`
 
-- [ ] Verify at least these projects are created `redhat-ods-applications|redhat-ods-monitoring|redhat-ods-operator`
+- [ ] Verify at least these projects are created `redhat-ods-applications|redhat-ods-monitoring|redhat-ods-operator` (redhat-ods-applications-auth-provider may not appear depending on your OpenShift AI Version)
 
       oc get projects -w | grep -E "redhat-ods|rhods"
 
@@ -158,6 +158,10 @@ There are 3x RHOAI Operator dependency states to be set: `Managed`, `Removed`, a
 > Expected output
 >
 > `datasciencecluster.datasciencecluster.opendatahub.io/default-dsc condition met`
+
+- [ ] Depending on the OpenShift Cluster you may need to scale your deployment to one
+
+      oc patch deployment rhods-dashboard -n redhat-ods-applications --type=merge -p '{"spec":{"replicas":1}}'
 
 - [ ] Verify DSC and related object creation
 
