@@ -61,7 +61,7 @@
   - [ ] ~Line 18 `.spec.replicas` from `0` to `1`
   - [ ] ~Line 22`.spec.selector.matchLabels["machine.openshift.io/cluster-api-machineset"]` to match the new `.metadata.name`.
   - [ ] ~Line 29 `.spec.template.metadata.labels["machine.openshift.io/cluster-api-machineset"]` to match the new `.metadata.name`.
-  - [ ] ~Line 51 `.spec.template.spec.providerSpec.value.instanceType` to `g6e.4xlarge`.
+  - [ ] ~Line 52 `.spec.template.spec.providerSpec.value.instanceType` to `g6e.4xlarge`.
 
 > [!TIP]
 > You can use `sed` or `yq` commands. However, sed is more limited and error-prone for complex YAML manipulations. If you have yq installed (a powerful YAML processor), it's much easier to handle such updates.
