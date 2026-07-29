@@ -18,10 +18,10 @@ spec:
             #!/bin/bash
 
             echo "
-            GIT_REPO=https://github.com/redhat-na-ssa/hobbyist-guide-to-rhoai.git
+            GIT_REPO=https://github.com/redhat-ai-americas/rhoai-demo-setup.git
 
-            [ -e ~/hobbyist-guide-to-rhoai ] || git clone \${GIT_REPO}
-            [ -e ~/hobbyist-guide-to-rhoai ] && cd ~/hobbyist-guide-to-rhoai
+            [ -e ~/rhoai-demo-setup ] || git clone \${GIT_REPO}
+            [ -e ~/rhoai-demo-setup ] && cd ~/rhoai-demo-setup
 
             " >> /home/user/.bashrc
 
