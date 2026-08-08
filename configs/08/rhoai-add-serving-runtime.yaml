@@ -1,21 +1,13 @@
----
 apiVersion: serving.kserve.io/v1alpha1
 kind: ServingRuntime
 metadata:
   annotations:
-    argocd.argoproj.io/sync-wave: "3"
-    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
-    enable-auth: "false"
-    enable-route: "false"
-    maxLoadingConcurrency: "2"
     opendatahub.io/template-display-name: Nvidia Triton Model Server
     opendatahub.io/template-name: triton
     openshift.io/display-name: Triton
   labels:
-    name: triton
     opendatahub.io/dashboard: "true"
   name: triton
-  namespace: sandbox
 spec:
   builtInAdapter:
     memBufferBytes: 134217728
@@ -29,7 +21,6 @@ spec:
     - |
       #!/bin/sh
       mkdir -p /models/_triton_models
-
       chmod 777 /models/_triton_models
       exec tritonserver \
         --model-repository=/models/_triton_models \
